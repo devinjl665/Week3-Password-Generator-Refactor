@@ -14,7 +14,7 @@ function generatePassword() {
     passwordLength = parseInt(prompt("Enter the password length (between 10 and 128 characters):"));
   } while (isNaN(passwordLength) || passwordLength < 10 || passwordLength > 128);
 
-  // Prompt for character types
+// Prompt for character types
   var useLowercase = confirm("Use lowercase characters?");
   var useUppercase = confirm("Use uppercase characters?");
   var useNumeric = confirm("Use numeric characters?");
@@ -25,7 +25,15 @@ function generatePassword() {
   if (useUppercase) possibleChars += uppercaseChars;
   if (useNumeric) possibleChars += numericChars;
   if (useSpecial) possibleChars += specialChars;
-  
+ 
+ 
+// Check if at least one character type is selected
+ if (possibleChars === "") {
+  alert("Please select at least one character type.");
+  return generatePassword();
+}
+
+
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
