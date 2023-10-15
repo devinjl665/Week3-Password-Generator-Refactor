@@ -33,6 +33,15 @@ function generatePassword() {
   return generatePassword();
 }
 
+// Generate the password
+var password = "";
+for (var i = 0; i < passwordLength; i++) {
+  var randomIndex = Math.floor(Math.random() * possibleChars.length);
+  password += possibleChars.charAt(randomIndex);
+}
+
+return password;
+}
 
 // Write password to the #password input
 function writePassword() {
@@ -46,4 +55,3 @@ function writePassword() {
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
-}
