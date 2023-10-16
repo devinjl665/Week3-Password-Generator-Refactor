@@ -6,10 +6,7 @@ Modified starter code to create an application that enables employees to generat
 
 ## Demo
 
-<<<<<<< HEAD
-=======
 ![Password-Generator-Screenshot](https://github.com/devinjl665/Week3-Password-Generator-Refactor/assets/142193870/7c52ba25-f7bb-47f4-b741-8b83bc03551d)
->>>>>>> 5101be474949619e6499d7fb512b688b8c2df8a3
 
 
 ## Site Link
