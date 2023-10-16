@@ -1,24 +1,16 @@
 # Week3-Password-Generator-Refactor
 
-Modifying starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected. It will have a clean and polished, responsive user interface that adapts to multiple screen sizes.
-
 ## Description
+
+Modified starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected. It will have a clean and polished, responsive user interface that adapts to multiple screen sizes.
 
 ## Demo
 
-<img src="Week3-Password-Generator-Refactor/assets/Password-Generator-Screenshot.png">
+![Alt text](Password-Generator-Screenshot-1.png)
 
 ## Site Link
 
-
-
-
-
-
-
-
-
-
+<a href="https://devinjl665.github.io/Week3-Password-Generator-Refactor/">Deployed Site</a>
 
 ## Usage
 
