@@ -6,7 +6,7 @@ Modifying starter code to create an application that enables employees to genera
 
 ## Demo
 
-<img src="Week3-Password-Generator-Refactor/assets/devinjl665.github.io_Week3-Password-Generator-Refactor_.png">
+<img src="Week3-Password-Generator-Refactor/assets/Password-Generator-Screenshot.png">
 
 ## Site Link
 
