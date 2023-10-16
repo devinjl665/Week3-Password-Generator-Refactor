@@ -6,7 +6,7 @@ Modified starter code to create an application that enables employees to generat
 
 ## Demo
 
-![Alt text](Password-Generator-Screenshot-1.png)
+
 
 ## Site Link
 
