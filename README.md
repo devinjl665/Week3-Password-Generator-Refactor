@@ -2,7 +2,7 @@
 
 ## Description
 
-Modified starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected. It will have a clean and polished, responsive user interface that adapts to multiple screen sizes.
+Modified starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected. It will have a clean and polished, responsive user interface that adapts to multiple screen sizes. This projects uses HTML and CSS, powered by Javascript. The password will be able to include special characters.
 
 ## Demo
 
@@ -15,11 +15,11 @@ Modified starter code to create an application that enables employees to generat
 
 ## Usage
 
-Click the "Generate Password" button and pick what characters you would like to include by choosing either "OK" or "Cancel". Use password to protect your sensitive information!
+Click the "Generate Password" button and pick what characters you would like to include by choosing either "OK" or "Cancel". Use the password generated to protect your sensitive information!
 
-## Credits
+## Credits 
 
-
+I referenced Anton Yosifov's github repository, "password-generator", for reference. It was especially useful in the beginning with trying to figure out what the assignment was looking for exactly. This was the first assignment where a lot of the things learned were outside of class. The repository is linked here: <a href="https://github.com/apyosi/password-generator">Anton's Password Generator Repository</a>
 
 
 ## User Story

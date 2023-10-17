@@ -1,7 +1,7 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
-// Function to generate a random password
+// Function to generate a randomized password
 function generatePassword() {
   var passwordLength;
   var lowercaseChars = "abcdefghijklmnopqrstuvwxyz";
@@ -9,12 +9,12 @@ function generatePassword() {
   var numericChars = "0123456789";
   var specialChars = "!@#$%^&*()_-+=<>?";
 
-// Prompt for the password length
+// A prompt asking the user what they want the password length to be
   do {
     passwordLength = parseInt(prompt("Enter the password length (between 10 and 128 characters):"));
   } while (isNaN(passwordLength) || passwordLength < 10 || passwordLength > 128);
 
-// Prompt for character types
+// Prompt asking for confirmation to use the different character types
   var useLowercase = confirm("Use lowercase characters?");
   var useUppercase = confirm("Use uppercase characters?");
   var useNumeric = confirm("Use numeric characters?");
@@ -27,13 +27,13 @@ function generatePassword() {
   if (useSpecial) possibleChars += specialChars;
  
  
-// Check if at least one character type is selected
+// Checks to see if at least one character type is selected, if not alert message is prompted
  if (possibleChars === "") {
   alert("Please select at least one character type.");
   return generatePassword();
 }
 
-// Generate the password
+// Generates the password based on the selections
 var password = "";
 for (var i = 0; i < passwordLength; i++) {
   var randomIndex = Math.floor(Math.random() * possibleChars.length);
